@@ -16,4 +16,6 @@
 
   mas = pkgs.callPackage ./pkgs/mas { };
 
+  xcodeproj = pkgs.callPackage ./pkgs/xcodeproj { };
+
 }
